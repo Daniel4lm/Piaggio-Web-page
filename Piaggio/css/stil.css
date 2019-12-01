@@ -1,0 +1,389 @@
+
+/* CSS stil za stranicu Piaggio*/
+
+.header {  
+  /*padding: 0px 0 0 10px;*/
+  border-style: solid;
+  border-color: #808080ff;
+  border-width: 1px 0px 1px 0px;
+  text-align: left;
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+  font-size: 15px;
+  background: #d5e5ffff;
+  color: #333333ff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  /*left: 0;*/
+}
+
+#naslov {
+	  font-family: Trebuchet MS;
+	  color: #1a1a1aff;
+}
+
+.dwhead {    
+  /*margin-top: 5px;*/
+  /*text-align: left;*/
+  padding-left: 180px;
+  font-family:Helvetica,sans-serif;
+  font-size: 14px;
+  color: #333333ff;
+}
+
+#dugme {
+	position:absolute;
+    /**transition: .5s ease;*/
+    /*top: 40%;*/
+    left: 40%;
+}
+
+#logo {
+  max-width: 6%;
+  height: auto;
+  width: auto;
+  padding: 10px 50px 10px 20px;
+}
+
+.about {
+	  margin-left: 40px;
+	  margin-right: 40px;
+}
+
+.ab {
+	  font-family: Verdana,Arial,Helvetica,sans-serif;
+	  font-variant: normal;
+	  color: #fff;
+	  text-transform: uppercase;
+	  font-style: normal;
+	  background-color: #93a7acff;
+	  /*width: 95%;*/
+	  padding: 15px 0px 15px 40px;
+}
+
+.ab img {
+	 vertical-align: middle;
+}
+
+.about p {
+	font-family:Helvetica,sans-serif;
+  font-size: 16px;
+  color: #333333ff;
+  text-align: left;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #4d4d4dff;
+  /*position: fixed; */
+  width: 100%; 
+  margin-top: 10px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 10px;
+  text-decoration: none;
+}
+
+.navbar p {
+   /*vertical-align: middle;*/
+   float: left;
+   padding: 8px 10px;
+}
+
+.navbar img {
+  float: left;
+  display: block;
+  height: 20px;
+  padding: 0 5px;
+}
+
+.navbar a:hover {
+	background: #5599ffff;
+	color: #f6fbffff;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  background-color: inherit;
+}
+
+.dropdown-content {
+  background: inherit;
+  display: none;
+  position: absolute;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top: 45px;
+  min-width: 100px;
+}
+
+.dropdown-content a {
+  background-color: #4d4d4dff;
+  float: none;
+  padding: 12px 16px 10px 10px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  
+  display: block;
+}
+
+.dropdown-content a:hover{
+  background: #5599ffff;
+  color: #f6fbffff;
+}
+
+#kontakt {
+  float: right;
+  /*padding-right: 20px;*/
+  margin-right: 5px;
+}
+
+.intro {
+	display: inherit;
+	height: 100%;
+	width: 100%;
+}
+
+.intro p, ul{
+	font-family:Helvetica,sans-serif;
+  font-size: 16px;
+  color: #333333ff;
+}
+
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 12%;
+  height: 200px;
+}
+
+.tab button {
+  display: inline;
+  background-color: inherit;
+  color: black;
+  padding: 16px 15px 16px 10px;
+  width: 100%;
+  height: 50px;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+}
+
+.tab img {
+  /*width: 22px;*/
+  vertical-align: middle;
+  padding: 0px 10px 0px 0px;
+}
+
+.tab button:hover {
+  background-color: #5599ffff;
+  color: #fff;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.intro {
+  float: left;
+  padding-left: 40px;
+  /*border: 1px solid #ccc;*/
+  width: 85%;
+  border-left: none;
+  height: 300px;
+  display: block;
+}
+
+/* Osnovno tijelo stranice */
+body{
+	margin-left: 0px;
+	margin-right: 0px;
+	/*font-family:Verdana,Arial,Helvetica,sans-serif;*/
+	/*background-image:url('background_spring.gif');*/
+	background-repeat: repeat-x;
+}
+
+ul{
+	list-style-image:url(pictures/bull1_spring.svg);
+}
+ul ul{
+	list-style-image:url(pictures/bull2_spring.gif);
+}
+ul ul ul{
+	list-style-image:url(pictures/bull3_spring.gif);
+}
+
+#down{
+  font-family:Helvetica,sans-serif;
+  font-size: 16px;
+  color: #333333ff;
+}
+
+#down a{  
+  color:#D84E00;
+}
+
+a:link{
+	/*color:#D84E00;*/
+}
+a:visited{
+	/*color:#9D4D00;*/
+}
+a:active{
+	/*color:#EBB66C;*/
+}
+
+h1{
+	color:#000000;
+}
+h2, marquee{
+	color:#000000;
+}
+h3{
+	color:#000000;
+}
+h4{
+	color:#000000;
+}
+h5{
+	color:#000000;
+}
+h6{
+	color:#000000;
+}
+
+body{
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	/*background-image:url('background_spring.gif');*/
+	background-repeat: repeat-x;
+}
+h1{
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-weight:bold;
+	font-style:normal;
+}
+h2{
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-weight:normal;
+	font-style:normal;
+}
+h3{
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-weight:normal;
+	font-style:normal;
+}
+h4{
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-weight:normal;
+	font-style:normal;
+}
+h5{
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-weight:normal;
+	font-style:normal;
+}
+h6{
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-weight:normal;
+	font-style:normal;
+}
+
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+} 
+
+/* Create two columns that float next to eachother */
+.column {/*
+  float: left;*/
+  width: 50%;
+  margin-top: 6px;
+  margin-left: 25%;
+  padding: 10px;
+  display: table;
+}
+
+.column img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  /*display: table;*/
+  clear: both;
+}
+
+footer {
+	float: left;
+  display: block;
+  color: #4d4d4dff;
+ 	text-align: center;
+ 	left: 0;
+  bottom: 0;
+  width: 100%;
+  /*background-color: #4d4d4dff;  	*/
+  position: fixed;
+  border-style: solid;
+  border-color: #808080ff;
+  border-width: 1px 0px 0px 0px;
+}
+
+footer p {
+	  margin-top:5px;
+  	margin-bottom: 5px;
+}
+
+footer a {
+  color:#2a7fffff;
+}

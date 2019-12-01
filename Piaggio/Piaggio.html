@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title >Piaggio grupacija</title>
+	<link rel="stylesheet" href="css/stil.css" type="text/css">
+ 	<!--<script src="moja_skripta.js"></script> -->
+	<meta name="piaggio" content="aftrnoon 2019">
+</head>
+
+<body>
+
+<script>
+	
+	function myFunction(ver) {
+
+		var prvi, drugi;
+
+		//document.getElementById(ver).style.display = "none";
+		prvi = document.getElementById(ver).id+'';
+		drugi = prvi.substr(prvi.length-1, prvi.length);
+
+		switch(drugi){
+
+		case '1':
+			//document.getElementById("naslov").innerHTML = "1";
+			window.open("U_izradi.html", "_self");
+			break;
+		case '2':
+			window.open("download.html", "_self");
+			break;
+		case '3':
+			window.open("U_izradi.html", "_self");
+			break;
+		case '4':
+			window.open("prenos.html", "_self");
+			break;
+		}		
+
+		//window.open("Mis.html", "_self");
+		//drugi = prvi.value;
+		//console.log(prvi);
+    	//document.getElementById("naslov").innerHTML = drugi;//document.getElementById(ver).innerHTML;
+	}
+
+</script>
+
+<div id="page" >
+
+	<header>
+		
+	<div class="header">
+ 		<img id="logo" src="pictures/piaggio.svg" alt="Piaggio logo" align="left" /> 
+  		<h1 id="naslov" >PIAGGIO FUN CLUB</h1>
+  		<div class="dwhead">
+  			<p>Samo za ljubitelje Piaggio grupacije</p>
+		</div>
+		<div class="navbar">
+			<p> </p>
+  			<a href="about.html" ><img src="pictures/about.svg" alt="O nama" />O nama</a>
+  			<a href="#news"><img src="pictures/search.svg" alt="Novosti" />Novosti</a>
+  			<!--
+  			<a href="http://www.libero.ba"><img src="pictures/f.svg" alt="Novosti" />Libero Sport.ba</a>
+  			<a href="https://www.piaggio.rs/"><img src="pictures/f.svg" alt="Novosti" />Piaggio.rs</a>
+  			<a href="https://www.piaggio.com/hr_HR/"><img src="pictures/f.svg" alt="Novosti" />c</a>
+  			<a href="http://www.vespa.ba/"><img src="pictures/f.svg" alt="Novosti" />c</a> -->
+  			<a id="kontakt" href="contact.html"><img src="pictures/email.svg" alt="Kontakt" />Kontakt</a>
+
+  			<div class="dropdown">
+    			<a class="dropbtn"><img src="pictures/piaggio-icon.svg" alt="Kontakt" />Piaggio
+   				  <!-- <i class="fa fa-caret-down"></i>-->
+  				</a>
+   				<div class="dropdown-content">
+      				<a href="http://www.libero.ba"><!--<img src="pictures/f.svg" alt="Novosti" />-->Libero Sport.ba</a>
+      				<a href="https://www.piaggio.com/hr_HR/"><!--<img src="pictures/f.svg" alt="Novosti" />-->Piaggio.rs</a>
+      				<a href="https://www.piaggio.rs/"><!--<img src="pictures/f.svg" alt="Novosti" />-->Piaggio.rs</a>
+      				<a href="http://www.vespa.ba/"><!--<img src="pictures/f.svg" alt="Novosti" />-->Piaggio.rs</a>
+    			</div>
+  			</div>
+
+		</div>
+	</div> 
+
+	</header> 
+
+ <br><br><br><br><br><br><br><br>
+
+<!--
+<div style="border-bottom-style: solid; border-bottom-width: 1px; padding-bottom: 1px">
+	<font face="Trebuchet MS"><span style="font-weight:bold; "><font size="5">PIAGGIO FUN CLUB</font></span><font size="5">
+	</font></font><b><font face="Trebuchet MS">&nbsp;&nbsp;&nbsp;&nbsp;
+	<i><font size="4">Arnela Delalić</font></i></font></b>
+</div> -->
+
+<br><br>
+
+<div class="tab">
+  <button id="btn1" onmouseup="myFunction('btn1')">Tehnički detalji</button>
+  <button id="btn2" onmouseup="myFunction('btn2')"><img src="pictures/pdf-black-s.svg" alt="Download uputstva" />Download uputstva</button>
+  <button id="btn3" onmouseup="myFunction('btn3')"><img src="pictures/tehn-black.svg" alt="Tehnički sklopovi" />Tehnički sklopovi</button>
+  <button id="btn4" onmouseup="myFunction('btn4')"><img src="pictures/prenos.svg" alt="Princip rada prijenosa" />Princip rada prijenosa</button>
+</div>
+
+<div class="intro">
+<span style="font-family: Verdana,Arial,Helvetica,sans-serif; font-variant: normal; color: #000080; text-transform: uppercase; font-style: italic">
+<font size="5">&nbsp;&nbsp;&nbsp; Dobrodošli</font></span><br><br>
+<p><!--<font face="Times New Roman" size="4">-->
+	Dobrodošli na prezentaciju ljubitelja Piaggio skutera!<br>
+<p>
+Na ovom mjestu ćete pronanaći:<br>
+</p>
+<ul>
+	<li>- informacije o svim tehničkim detaljima koji Vas zanimaju vezano za piaggio mašine 50cc, tehničke podaci za pojedine Piaggio modele</li>
+	<li>- prikazaćemo slike pojedinih motora,</li>
+	<li>- objasniti kako skinuti blokade i "frizirati" mašinu</li>
+	<li>- možete pronaći servisna uputstva za popravku i održavanje pojedinih modela</li>
+	<li>- kompletne tehničke crteže Piaggio motora sa opisom rada istih</li>
+</ul>
+<p>
+Nadam se da će ova stranica mnogima ljubiteljima biti zanimljiva.
+<br><br>
+<strong>Napomena:</strong><em> Ova stranica je još u fazi izrade. Molim sve posjetitelje za strpljenje i podršku. <br><br>
+Slobodno učestvujte sa vašim savjetima i slanjem podataka i slika koje mislite da bi trebalo objaviti!</em>
+</p>
+</div>
+<br><br>
+
+<p align="center"><img border="0" style="padding-top: 60px;padding-bottom: 40px;" src="piaggio-50.png"></p>
+<p>&nbsp;</p>
+<br><br>
+
+<br>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+ <footer>
+  <p> © 2019 Designed by: Daniel Molnar. Sva prava pridržana. Kontakt informacije: <a href="mailto:daniel4molnar@gmail.com">
+  daniel4molnar@gmail.com</a></p>
+</footer> 
+
+</div>
+
+</body>
+
+</html>
